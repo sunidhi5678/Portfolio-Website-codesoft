@@ -1,0 +1,340 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    height: 15vh;
+    width:100px;
+}
+nav{
+  margin:10px 20px;
+    display:flex;
+  
+    position: sticky;
+    top:10px;
+   
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    color:black;
+    padding:10px 30px;
+}
+.logo span{
+    color:aquamarine;
+}
+.menu{
+    margin-left:350px;
+    display: flex;
+align-items: center;
+justify-content: space-around;
+text-decoration: none;
+font-size: 25px;
+font-weight: 500;
+}
+.menu a{
+    align-items: center;
+justify-content: space-around;
+text-decoration: none;
+font-size: 25px;
+font-weight: 500;
+padding:10px 40px;
+color:black;
+position: relative;
+}
+.menu a:before{
+    content:'';
+    height:0%;
+    width: 0%;
+    position: absolute;
+    top:50px;
+    left:15px;
+    border-bottom: 4px solid aquamarine;
+transition: 0.4s linear;
+}
+.menu a:hover:before{
+    width:80%;
+}
+/*header section end*/
+/*main section start*/
+.section1{
+    height:100vh;
+    width:100%;
+   font-family: sans-serif;
+
+
+}
+.content-container{
+    display: flex;
+   
+}
+.main-heading{
+  height:80px;
+  width:900px;
+    margin-top: 25px;
+    font-size:34px;
+   font-weight: 900;
+   text-align: center;
+   animation-name: ghumkadd;
+   animation-duration: 2s;
+
+}
+@keyframes ghumkadd{
+    from{margin-left: 200%;}
+    to{
+        margin-right: 0%;
+    }
+}
+.about-email{
+    margin-top: 100px;
+}
+.email{
+
+    margin-left: 54px;
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+    font-weight: 200;
+    
+
+}
+.email span{
+    color:aquamarine;
+}
+.main-heading span{
+    color:black;
+height:75px;
+width:900px;
+    font-size:34px;
+    font-weight: 500;
+}
+.email span:hover{
+    color:black;
+}
+.icons{
+    margin-top:74px;
+    margin-left: 54px;
+  
+}
+.icons a{
+  
+    background-color: transparent;
+    margin:10px;
+    color:aquamarine;
+}
+.icons a:hover{
+    color:black;
+}
+.cv{
+    margin-top: 120px;
+}
+
+
+.download{
+    margin-left: 54px; 
+    padding:10px 20px;
+    border:2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+.download:hover{
+    margin-left: 54px; 
+    padding:10px 20px;
+    border:2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color:aquamarine;
+    color: black;
+}
+.CV{
+    margin-left: 54px; 
+    padding:10px 20px;
+    border:2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: aquamarine;
+    color: black;  
+}
+.CV:hover{
+    margin-left: 54px; 
+    padding:10px 20px;
+    border:2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color:transparent;
+    color: black;
+}
+/*main section end*/
+/*about section start*/
+.about{
+    width:100%;
+    padding:10px 0px;
+    
+}
+.about-img{
+    height:auto;
+
+}
+.about-text{
+    width:530px;
+}
+.About{
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin-top: 80px;
+    margin-left: 54px; 
+    padding:10px 20px;
+    border:2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: aquamarine;
+    color: black; 
+}
+.button:hover{
+    margin-left: 54px; 
+    padding:10px 20px;
+    border:2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color:transparent;
+    color: black;
+}
+/*about section end*/
+/*Service start*/
+.service{
+    width:100%;
+    padding:100px 0px;
+}
+.title h2{
+    color:aquamarine;
+    font-size:75px;
+    width:1130px;
+    margin:30px auto;
+    text-align:center;
+
+}
+.box{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    transition: 0.5s ease;
+  
+}
+.box .card:hover{
+    border:2px solid aquamarine;
+transform: scale(1.5s);
+}
+
+.card{
+    height:365px;
+    width:355px;
+    padding:20px 35px;
+    border-radius:20px;
+   
+    position:relative;
+    overflow:hidden;
+    text-align:center;
+    
+}
+.Button{
+    padding:10px 20px;
+    border:2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: aquamarine;
+    color: black; 
+}
+.Button:hover{
+    padding:10px 20px;
+    border:2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color:transparent;
+    color: black;
+}
+.card i{
+    font-size:50px;
+    display:block;
+text-align:center;
+margin:25px 0px;
+color:aquamarine;
+}
+h5{
+    font-size:23px;
+margin-bottom:15px;
+}
+.pera p{
+    font-size:16px;
+    line-height:27px;
+    margin-bottom:25px;
+}
+/*Service end*/
+/*Portfoil section start*/
+
+.imges{
+    width:100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.portfolio-conatiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap:2rem;
+}
+.heading{
+    color: aquamarine;
+    font-size:75px;
+    width:1130px;
+    margin:30px auto;
+    text-align:center;
+}
+
+.portfolio-box{
+    height: 308px;
+    width:300px;
+    border-radius: 8px;
+    margin-left: 150px;
+    transition: 1.5s ease;
+}
+.portfolio-container .portfolio-box:hover{
+    border:2px solid aquamarine;
+    transform: scale(1);
+}
+.portfolio-conatiner .portfolio-box{
+    border:4px solid aquamarine
+}
+.portfolio-layer{
+    text-align: center;
+    font-size: 13px;
+}
+
+/* portfolio section end*/
+/*contact form start*/
+.contact-us{
+    margin-left:23px;
+    margin-top:30px;
+
+}
+.contact-conatiner{
+    border:2px solid aquamarine;
+    border-radius: 8px;
+    margin-top: 44px;
+}
+.conatct-heading{
+    text-align: center;
+    color:aquamarine;
+    font-size: 78px;
+    font-weight: 400;
+}
